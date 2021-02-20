@@ -8,7 +8,7 @@ const products = [
     dateOpened: "01/01/2021",
     purchaseByDate: '02/01/2021',
     reportingPeriod: '03/01/21 - 04/01/21',
-    availability: 2,
+    availability: 0,
     price: 26250
   },
   {

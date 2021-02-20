@@ -26,9 +26,9 @@ const Product = ({ product }) => {
         <Card.Text as="div">
           <div className="my-1">Credit Limit: ${product.creditLimit.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
         </Card.Text>
-        
+
         <Card.Text as="div">
-          <div className="my-1">Availabile: {product.availability}</div>
+          <div className="my-1">{product.availability} {product.availability > 0 ? 'Available' : 'None Available'}</div>
         </Card.Text>
 
       </Card.Body>
