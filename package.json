@@ -1,1 +1,29 @@
-{}
+{
+  "name": "cautious-fiesta",
+  "version": "1.0.0",
+  "description": "imperfect produce",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnLeavell/cautious-fiesta.git"
+  },
+  "author": "John Leavell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnLeavell/cautious-fiesta/issues"
+  },
+  "homepage": "https://github.com/johnLeavell/cautious-fiesta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
