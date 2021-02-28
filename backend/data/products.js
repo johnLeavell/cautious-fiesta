@@ -1,6 +1,10 @@
 const products = [
   {
     bankName: 'Capitol One',
+    name: 'The Discover Card Name',
+    description: 'Discover Credit Card Description',
+    category: 'Credit Card Category',
+    brand: false,
     image: '/images/capitol_one.jpg',
     cardId: 14230,
     creditLimit: 3000,
@@ -12,6 +16,10 @@ const products = [
   },
   {
     bankName: 'Barclays',
+    name: 'The Barclays Card Name',
+    description: 'Barclays Credit Card Description',
+    category: 'Credit Card Category',
+    brand: false,
     image: '/images/barclays.jpg',
     cardId: 14456,
     creditLimit: 3000,
@@ -23,6 +31,10 @@ const products = [
   },
   {
     bankName: 'Chase',
+    name: 'The Chase Card Name',
+    description: 'Chase Credit Card Description',
+    category: 'Credit Card Category',
+    brand: false,
     image: '/images/chase.jpg',
     cardId: 17730,
     creditLimit: 3000,
@@ -34,6 +46,10 @@ const products = [
   },
   {
     bankName: 'Bank of America',
+    name: 'The Bank of America Card Name',
+    description: 'Bank of America Credit Card Description',
+    category: 'Credit Card Category',
+    brand: false,
     image: '/images/bank_of_america.jpg',
     cardId: 17320,
     creditLimit: 3000,
@@ -45,6 +61,10 @@ const products = [
   },
   {
     bankName: 'Elan',
+    name: 'The Elan Card Name',
+    description: 'Elan Credit Card Description',
+    category: 'Credit Card Category',
+    brand: false,
     image: '/images/elan.jpg',
     cardId: 12230,
     creditLimit: 3000,
@@ -56,6 +76,10 @@ const products = [
   },
   {
     bankName: 'Discover',
+    name: 'The Discover Card Name',
+    description: 'Discover Credit Card Description',
+    category: 'Credit Card Category',
+    brand: false,
     image: '/images/discover.jpg',
     cardId: 142550,
     creditLimit: 3000,
@@ -67,6 +91,10 @@ const products = [
   },
   {
     bankName: 'Capitol One',
+    name: 'The Capitol One Card Name',
+    description: 'Capitol One Credit Card Description',
+    category: 'Credit Card Category',
+    brand: false,
     image: '/images/capitol_one.jpg',
     cardId: 18653,
     creditLimit: 3000,
